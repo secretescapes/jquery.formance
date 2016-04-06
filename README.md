@@ -1,6 +1,14 @@
 # jQuery.formance
 Bringing romance back .... to forms
 
+
+## No Longer Maintained
+Sadly, I do not have any time to continue maintaining and supporting this project. If you'd like to continue you working on the project, please fork it. You can find the next release I was working on a while back on the revamp branch - some tests were failing that need to be fixed before it is ready for prime time. https://github.com/omarshammas/jquery.formance/tree/revamp
+
+Best of luck. Omar
+
+## What is Formance?
+
 Formance.js is a jQuery library for formatting and validating form fields, based on / inspired by Stripe's jQuery.payment library. 
 
 Client side validation is not sufficient in any project because the javascript can be bypassed and people can submit requests directly to the server. However, that doesn't mean client side validation should be forgotten. This library is for those who care about the user experience.
