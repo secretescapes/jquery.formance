@@ -8,7 +8,7 @@ defaultFormat = /(\d{1,4})/g
 cards = [
   {
       type: 'maestro'
-      pattern: /^(5018|5020|5038|6304|6759|676[1-3])/
+      pattern: /^(50|56|57|58|59|6)/
       format: defaultFormat
       length: [12..19]
       cvcLength: [3]
@@ -56,7 +56,7 @@ cards = [
   }
   {
       type: 'mastercard'
-      pattern: /^5[1-5]/
+      pattern: /^(5[1-5]|2[2-7])/
       format: defaultFormat
       length: [16]
       cvcLength: [3]

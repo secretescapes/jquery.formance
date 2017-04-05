@@ -1,3 +1,11 @@
+#SE notes
+Written in coffescript - more info at http://coffeescript.org/
+
+`cake build`  - builds lib/jquery.formance.js and minifies it. Minified version has to be copied to our main app and also accessible via cloudfront
+
+As lib is no longer supported, we might need update the validation rules sometimes, as stated in https://secretescapes.atlassian.net/browse/DEV-10159
+
+
 # jQuery.formance
 Bringing romance back .... to forms
 
